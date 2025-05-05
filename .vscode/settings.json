@@ -1,0 +1,10 @@
+{
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
+}
