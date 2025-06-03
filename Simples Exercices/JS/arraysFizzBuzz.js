@@ -4,17 +4,17 @@
 
 var messageOutput = [];
 var numeroInicial = 1;
-var fizzOrBuzz =["Fizz", "Buzz", "FizzBuzz"]
+
 
 function confereFizzBuzz (numero) {
-  if((numero % 3 == 0) && (numero % 5 == 0)){
-    return fizzOrBuzz[2];
+  if((numero % 3 === 0) && (numero % 5 === 0)){
+    return "FizzBuzz";
   }
-  if(numero % 3 == 0) {
-    return fizzOrBuzz[0];
+  if(numero % 3 === 0) {
+    return "Fizz";
   }
-  if(numero % 5 == 0) {
-    return fizzOrBuzz[1];
+  if(numero % 5 === 0) {
+    return "Buzz";
   }
   return numero;
 }
